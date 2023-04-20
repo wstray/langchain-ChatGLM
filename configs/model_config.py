@@ -18,7 +18,7 @@ EMBEDDING_DEVICE = "cuda" if torch.cuda.is_available() else "mps" if torch.backe
 llm_model_dict = {
     "chatglm-6b-int4-qe": "THUDM/chatglm-6b-int4-qe",
     "chatglm-6b-int4": "THUDM/chatglm-6b-int4",
-    "chatglm-6b": "THUDM/chatglm-6b",
+    "chatglm-6b": "/content/drive/MyDrive/chatglm-6b",
 }
 
 # LLM model name
